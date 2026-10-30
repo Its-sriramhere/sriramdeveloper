@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <title>The blueprint — an original manga planning scene</title>
+  <defs><pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0v25" fill="none" stroke="#6f7964" stroke-width=".8"/></pattern><pattern id="ink" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)"><path d="M0 0v6" stroke="#1c291e"/></pattern></defs>
+  <path fill="#737b68" d="M0 0h600v800H0z"/>
+  <g stroke="#1b291e" stroke-width="3" fill="#d9dbc4"><path d="M0 0h600v148H0z"/><path d="M0 36h600M0 87h600M68 0v148m95-148v148m95-148v148m95-148v148m95-148v148m95-148v148" fill="none" stroke-width="6"/></g>
+  <path d="M24 165l552 33-19 570-546-15z" fill="#b5b79e" stroke="#1b291e" stroke-width="6"/>
+  <g stroke="#1b291e" stroke-width="2" stroke-linejoin="round"><path d="M81 213l445 22-38 426-427-45z" fill="#e9e6d1"/><path d="M98 231l402 20-31 380-382-34z" fill="url(#grid)"/>
+    <path d="M153 283l111 3-5 77-111-5zM344 299l109 9-5 78-111-9zM223 460l124 11-8 82-123-12z" fill="#e8e6d0" stroke-width="3"/>
+    <path d="M165 299l83 3m-84 12l59 3m-61 13l75 3M358 326l78 5m-80 12l59 4m-60 11l75 5m-133 126l87 7m-89 10l60 6m-61 9l77 8" fill="none" stroke-width="1.5"/>
+    <path d="M267 323l69 7m-17-13l17 13-20 9M206 364l59 96m-15-13l15 13 1-26m126-49l-84 78m14-1l-14 1 6-17" fill="none" stroke="#a04430" stroke-width="5"/>
+    <path d="M104 223l38-14 10 29-38 14zm309 393l52-7 7 29-53 8z" fill="#a04430" opacity=".7" stroke="none"/>
+    <path d="M416 180l119 22-9 61-116-22z" fill="#d0c4a4"/><path d="M430 201l80 15m-82-1l61 13" fill="none"/>
+    <path d="M36 433l71 12-12 88-68-15z" fill="#e1d7b9"/><path d="M46 458l42 8m-44 8l35 8m-37 6l31 8" fill="none"/>
+    <path d="M39 665l134 18-8 70-132-20z" fill="#e7e1c8"/><path d="M52 689l89 13m-91 0l100 14m-100 0l63 10" fill="none"/>
+  </g>
+  <g stroke="#19271d" stroke-width="3" stroke-linejoin="round">
+    <path d="M0 0h135l39 52-9 106-70 61L0 167z" fill="#e3dcc2"/>
+    <path d="M0 0h160l19 31-25-2 16 38-29-12-6 32-27-14-13 26-25-7-21 42L0 130z" fill="#19271d"/>
+    <path d="M103 107l33-13 20 12-24 12z" fill="#f5edda"/>
+    <path d="M124 101v13m-15-17l32-9m-16 36l-3 19 15 6m-28 13l32-1" fill="none"/>
+    <path d="M0 162l72 27 66 71 12 99-59 34L0 322z" fill="#3c4938"/>
+    <path d="M39 184l39 21 27 57-37 7L8 196z" fill="#a04430"/>
+    <path d="M103 285l64 73 65 51-20 37-78-41-57-63z" fill="#d8dbc2"/>
+    <path d="M215 403l28 4 34 19 8 12-8 10-18-13 18 20-8 10-26-22 18 24-10 7-33-32-17-8z" fill="#e6dec5"/>
+    <path d="M254 420l76-51 8 10-77 54z" fill="#272f22"/>
+    <path d="M327 370l20-7-9 17z" fill="#b34c33"/>
+    <path d="M600 700l-107-29-88-7-10 42 84 24 121 60z" fill="#303e2e"/>
+    <path d="M415 669l-43-17-43 3-25 15 3 13 36-14 12 8-42 21 6 12 44-18 4 10-32 17 6 13 48-19 29-6z" fill="#e6dec5"/>
+  </g>
+  <path d="M0 231l88 39 51 94-39 16L0 320z" fill="url(#ink)" opacity=".55"/>
+  <g transform="translate(504 546) rotate(8)" stroke="#1b291e" stroke-width="3"><ellipse rx="40" ry="18" fill="#dadcc5"/><path d="M-40 0l9 62q29 18 62 0l9-62" fill="#c6cbb1"/><ellipse rx="31" ry="11" fill="#383c2c"/><path d="M39 15q39-2 31 29-6 17-37 8" fill="none" stroke-width="6"/><path d="M-7-14q-15-28 1-45m15 48q18-29 4-43" fill="none" stroke-width="2"/></g>
+  <g fill="none" stroke="#222f22" stroke-width="2"><path d="M359 689l58 38m-70-28l54 40m-99-543l37 14m-28-23l39 14m-49-28l48 17M78 629l89 10m-83 1l53 9"/></g>
+  <path d="M0 0h600v800H0z" fill="none" stroke="#19251b" stroke-width="12"/>
+</svg>

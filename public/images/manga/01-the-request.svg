@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <title>The request — an original manga street scene</title>
+  <defs>
+    <pattern id="dots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#191b1b"/></pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(24)"><path d="M0 0V8" stroke="#272927" stroke-width="1"/></pattern>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#222726"/><stop offset="1" stop-color="#a6a79a"/></linearGradient>
+  </defs>
+  <path fill="#e8e4d6" d="M0 0h600v800H0z"/>
+  <path fill="url(#sky)" d="M0 0h600v475H0z"/>
+  <circle cx="419" cy="137" r="68" fill="#dbd8ca"/>
+  <circle cx="419" cy="137" r="68" fill="url(#dots)" opacity=".3"/>
+  <g stroke="#171b1a" stroke-width="3" fill="#c2c2b3">
+    <path d="M0 68l184 80 26 342L0 627z"/><path d="M600 121L424 211l-40 277 216 133z"/>
+    <path d="M0 70l196 76-4 20L0 107z" fill="#151918"/>
+    <path d="M600 108l-184 99 7 20 177-80z" fill="#151918"/>
+    <path d="M23 150l135 47 5 168-140-3z" fill="#474d47"/>
+    <path d="M445 248l125-59v172l-143 49z" fill="#3a413c"/>
+    <path d="M18 398l160-7 15 117L10 577z" fill="#93988b"/>
+    <path d="M430 439l139-44 31 190-200-94z" fill="#93988b"/>
+    <path d="M42 162v200m29-190v190m29-180v180m29-170v170M25 225l137 31M24 288l140 17" stroke="#c9ccbd" stroke-width="2"/>
+    <path d="M461 240l-14 162m39-176l-10 164m39-177l-6 164m35-176l-2 162M441 291l128-52M436 348l133-44" stroke="#b9bcaf" stroke-width="2"/>
+    <path d="M218 340l51-28 9 168h-54zm133-22l52 18-13 151-46-10z" fill="#555e54"/>
+    <path d="M285 275h57v210h-57z" fill="#e0dfce"/>
+    <path d="M286 330h56m-43-54v204m29-204v204" stroke-width="2"/>
+  </g>
+  <g stroke="#111817" fill="none"><path d="M13 0l14 618M577 0l-7 615" stroke-width="9"/><path d="M21 32q249 145 553 4M23 77q250 125 550 26M23 119q236 95 550 37" stroke-width="3"/><path d="M7 23h55M547 31h53M8 75h53M548 84h51" stroke-width="7"/></g>
+  <g transform="translate(161 256)"><path d="M0-87v62" stroke="#171b1a" stroke-width="4"/><path d="M-21-22q21-15 42 0l7 62q-28 19-55 0z" fill="#a94634" stroke="#171b1a" stroke-width="3"/><path d="M-21-8h44M-23 7h48M-23 23h49" fill="none" stroke="#d09271" stroke-width="2"/><path d="M-15-27h30v8h-30zm0 68h30v8h-30z" fill="#171b1a"/></g>
+  <path d="M0 800l273-325h67l260 325z" fill="#c5c7b7"/>
+  <g fill="none" stroke="#464e45" stroke-width="2"><path d="M297 476L126 800m191-324l118 324M234 524h151M201 567h220M153 628h316M84 714h455"/><path d="M27 704l95-10m-35 25l68-6m290 22l78 7M391 598l50 4M194 610l55-4" stroke="#f2eee0" stroke-width="5"/></g>
+  <g stroke="#161b18" stroke-width="3" stroke-linejoin="round">
+    <path d="M238 656l-11 130h43l27-120 29 119h43l-14-139z" fill="#252e29"/>
+    <path d="M226 773l-16 20v7h62l1-25m53-2l-4 27h59l-17-25" fill="#101715"/>
+    <path d="M242 436q48-32 91 1l32 49 20 145-35 33H241l-33-30 11-145z" fill="#dfdfcc"/>
+    <path d="M237 439q-19 38-2 72l39 23 38-7 35-67-29-30z" fill="#171f1b"/>
+    <path d="M261 422l-3 39q22 29 48 0l-2-38z" fill="#bdbfac"/>
+    <path d="M240 352q-4-52 40-63 50-6 65 39l-9 66-29 38-41-2-26-35z" fill="#e6dfc8"/>
+    <path d="M234 370l-14-41 18 2-3-30 25 9 14-35 18 22 25-21 4 28 28-5-9 27 18 10-17 29-10-26-23-8-14 18-10-14-22 20-8-17-10 31z" fill="#151c19"/>
+    <path d="M244 358l13 17-2 27m53-48l23 6m-19 2l8 2m-39 18l-5 18 10 4m-13 11l27 1" fill="none"/>
+    <path d="M228 487l-19 123 30 18 22-91m86-57l38 95-23 21-35-73" fill="#d0d2bd"/>
+    <path d="M236 444l-8 191M324 439l36 192" fill="none" stroke-width="10"/>
+    <path d="M258 461q28 17 51-3l14 17-21 25-51-18z" fill="#a94634"/>
+    <path d="M306 487l24 31 38-9-33-12-15-22" fill="#a94634"/>
+    <path d="M222 568l-32 16 29 56 44-28-19-43z" fill="#e8e4d6"/>
+    <path d="M201 588l31 37m-21-44l30 35" stroke-width="1"/>
+  </g>
+  <path d="M245 542h92v98h-92z" fill="url(#hatch)" opacity=".38"/>
+  <g stroke="#e8e4d6" stroke-width="1.5" opacity=".75"><path d="M65 0L2 252m167-252L68 405M293 0L180 454M391 0L269 488M500 0L368 526M590 83L462 619M161 480L43 800m496-267l-70 267M541 11l-34 125M363 17l-22 92M98 36l-27 110"/></g>
+  <path d="M0 0h600v800H0z" fill="none" stroke="#171b1a" stroke-width="12"/>
+</svg>

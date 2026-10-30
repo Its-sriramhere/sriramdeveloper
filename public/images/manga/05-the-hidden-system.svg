@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <title>The hidden system — an original manga night-work scene</title>
+  <defs><pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0v34" stroke="#b4bba1" stroke-width=".7" fill="none"/></pattern><pattern id="dots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#c7cdb6"/></pattern></defs>
+  <path fill="#17231e" d="M0 0h600v800H0z"/>
+  <path fill="url(#grid)" opacity=".18" d="M0 0h600v800H0z"/>
+  <g stroke="#a3af93" stroke-width="2" fill="none" opacity=".7"><path d="M15 0v250l52 49v130m28-429v217l-34 26m459-243v281l-52 29v116m89-426v212l-22 32M180 0v95m238-95v95"/><path d="M15 131h81m424 21h38M70 325h35v-81h77m285 120h-58v-95h-73"/><circle cx="181" cy="244" r="5"/><circle cx="336" cy="269" r="5"/></g>
+  <g stroke="#d8ddc7" stroke-width="3" fill="#27382b"><path d="M129 80h343v183H129z"/><path d="M148 101h305v142H148z" fill="#e3e4cc"/><path d="M280 263v31h-61v12h151v-12h-62v-31"/><path d="M25 319l174-31 18 185-176 42z"/><path d="M43 334l139-25 14 145-141 33z" fill="#b8c5aa"/><path d="M407 289l171 34-17 196-174-48z"/><path d="M424 311l135 27-14 155-139-38z" fill="#b8c5aa"/></g>
+  <g fill="none" stroke="#384b35" stroke-width="3"><path d="M173 127h74v46h-74zm158 0h90v46h-90zM257 193h73v33h-73z"/><path d="M248 151h82m-35 0v42m-5-18l5 17 7-16" stroke="#a74732" stroke-width="5"/><path d="M66 356l91-17m-87 38l76-15m-72 37l91-17m-88 38l57-10m300-64l89 18m-91 6l74 15m-78 9l89 18m-91 7l59 13" stroke-width="2"/></g>
+  <g stroke="#111d16" stroke-width="3" stroke-linejoin="round">
+    <path d="M0 578l250-112h110l240 116v45H0z" fill="#c1c9ab"/>
+    <path d="M49 627v173m500-173v173" stroke="#9eab8e" stroke-width="16"/>
+    <path d="M0 583h600v25H0z" fill="#5e7055"/>
+    <path d="M156 800l13-202 46-127 83-36 91 34 53 133 16 198z" fill="#3b4e36"/>
+    <path d="M232 415l-2 56 61 42 57-39-5-63z" fill="#b9c4a2"/>
+    <path d="M229 282q17-55 75-56 63 7 68 76l-14 92-48 43-56-22-27-67z" fill="#bdc7a7"/>
+    <path d="M230 349l-30-66 23 2-5-42 35 10 19-37 29 27 31-24 12 31 35-1-10 28 21 19-18 63-18-39-31-16-17 21-22-14-17 29-14-15z" fill="#101c15"/>
+    <path d="M210 469l73 39 62-36 28 41-76 48-102-49z" fill="#a74732"/>
+    <path d="M324 544l41 57 62-1-47-24-29-50" fill="#a74732"/>
+    <path d="M199 492l-59 96-50 9 7 31 88-7 51-81m132-44l64 90 61 18-8 31-94-24-57-69" fill="#bac6a7"/>
+    <path d="M94 594l-40-3-17 11 29 3-30 7 4 11 55 4m389-24l43-4 20 12-33 2 33 8-6 13-54-3" fill="#c9d1b5"/>
+    <path d="M204 677h199l22 123H182z" fill="#1b2b20"/>
+    <path d="M205 691q90-32 197 0m-192 15q94-24 196 0" stroke="#698263" fill="none"/>
+  </g>
+  <path d="M193 530h215v130H193z" fill="url(#dots)" opacity=".22"/>
+  <g fill="none" stroke="#b64e34" stroke-width="5"><path d="M81 110h23v435h61m354-422h-21v422h-59M176 59h253"/><circle cx="82" cy="110" r="8"/><circle cx="519" cy="122" r="8"/></g>
+  <g fill="#b1bea0"><circle cx="68" cy="71" r="2"/><circle cx="501" cy="63" r="2"/><circle cx="389" cy="31" r="2"/><circle cx="110" cy="264" r="2"/><circle cx="480" cy="270" r="2"/></g>
+  <path d="M0 0h600v800H0z" fill="none" stroke="#101c15" stroke-width="12"/>
+</svg>

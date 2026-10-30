@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <title>Earn the ending — an original manga testing montage</title>
+  <defs><pattern id="h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0v7" stroke="#34412e"/></pattern><pattern id="d" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#22301e"/></pattern></defs>
+  <path fill="#e9e4cf" d="M0 0h600v800H0z"/>
+  <path d="M0 10h600v287L0 363z" fill="#b7c1a2" stroke="#1b281b" stroke-width="8"/>
+  <g stroke="#1b281b" stroke-width="3" stroke-linejoin="round">
+    <path d="M34 19l164 4 68 254-193 25z" fill="#273421"/>
+    <path d="M51 43l129 1 56 206-145 23z" fill="#e8e6cc"/>
+    <path d="M77 68l85 2 13 42-88 5zm19 72l87-4 20 73-91 12z" fill="#c0c9ab"/>
+    <path d="M90 83l53 3m-28 73l55-5m-51 19l57-6m-53 19l41-5" fill="none" stroke-width="2"/>
+    <path d="M5 247l38-8 43 17 24 24-7 18-22-11 14 17-10 13-36-22L5 302z" fill="#e5ddc2"/>
+    <path d="M219 212l23-67 10-51 14-12 10 10-6 70-8 51-19 33z" fill="#e5ddc2"/>
+    <path d="M276 22h290v226H276z" fill="#e6e5cd"/><path d="M299 45h244v176H299z" fill="#a4b594"/>
+    <path d="M320 69h197v31H320zm0 48h85v74h-85zm105 0h92v74h-92z" fill="#e1e6cc"/>
+    <path d="M333 84h113m-112 48h47m-47 15h49m-48 15h37m73-30h57m-57 15h43m-43 15h55" fill="none" stroke-width="2"/>
+  </g>
+  <path d="M13 389l574-72v219L13 600z" fill="#e9e4cf" stroke="#1b281b" stroke-width="8"/>
+  <g stroke="#182719" stroke-width="3" stroke-linejoin="round">
+    <path d="M194 369q91-47 170-6l35 139-62 42-98 5-62-36z" fill="#e3dbc0"/>
+    <path d="M181 443l-20-60 38-10-2-39 39 21 39-35 18 25 53-27 8 34 37-4-9 46 24 17-18 53-19-38-45-27-18 24-30-19-27 37-18-12-22 36z" fill="#19271b"/>
+    <path d="M224 446l47-8 19 17-54 5zM327 434l40 2 15 14-51 1z" fill="#eee8d4"/>
+    <path d="M256 444v14m96-20v12m-130-15l59-12m44 0l53 4m-76 34l-7 38 15 6m-46 26l68-6" fill="none"/>
+    <path d="M51 555l69-43 42-7m258-76l91-41m-93 65l114-40m-102 64l117-25" fill="none" stroke-width="2"/>
+  </g>
+  <path d="M13 627l574-57v217H13z" fill="#a9b895" stroke="#1b281b" stroke-width="8"/>
+  <g stroke="#1b281b" stroke-width="3" stroke-linejoin="round">
+    <path d="M57 678l176-23 54 111-198 16z" fill="#e9e4cf"/>
+    <path d="M87 690l139-18m-129 37l140-17m-132 37l138-18m-130 37l135-17" fill="none" stroke-width="2"/>
+    <path d="M173 598l23 46 24 30 24 9 9-13-28-31-24-43m-40 25l-23 27-26 10-2 14 13 9 42-15 28-27" fill="#e1d8bc"/>
+    <path d="M326 623l205-22 22 152-221 14z" fill="#e2e3c7"/>
+    <path d="M351 646l148-14m-145 38l147-13m-143 36l145-11m-142 36l146-10" stroke-width="2"/>
+    <path d="M363 643l9 8 16-22m-21 37l9 8 15-23m-19 35l9 8 15-22m-20 35l8 8 16-23" stroke="#a04430" stroke-width="5" fill="none"/>
+    <path d="M420 592l49-12 20 26 9 30-10 8-18-30-31 8-14-11z" fill="#e1d8bc"/>
+  </g>
+  <path d="M10 15h32v245H10zm545 323h43v208h-43z" fill="url(#d)" opacity=".7"/>
+  <path d="M14 638l30-3 34 143-64 7zm520-54l53-8v210h-18z" fill="url(#h)" opacity=".4"/>
+  <path d="M0 0h600v800H0z" fill="none" stroke="#182719" stroke-width="12"/>
+</svg>

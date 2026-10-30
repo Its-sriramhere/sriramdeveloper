@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <title>Listen first — an original manga café conversation</title>
+  <defs><pattern id="h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V7" stroke="#242822" stroke-width="1"/></pattern><pattern id="d" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#292e26"/></pattern></defs>
+  <path fill="#e9e4d4" d="M0 0h600v800H0z"/>
+  <g stroke="#222920" stroke-width="3"><path d="M35 22h532v404H35z" fill="#b9beac"/><path d="M54 44h494v356H54z" fill="#e1e2cf"/><path d="M54 110h494M54 178h494M54 246h494M54 314h494M135 44v356m82-356v356m82-356v356m82-356v356m82-356v356" fill="none" stroke-width="6"/><path d="M21 0v457m555-457v457M0 424h600" stroke-width="14"/><path d="M0 443h600v357H0z" fill="#b2b6a1"/><path d="M0 521h600M0 615h600M0 729h600M80 443L6 800m210-357l-30 357m154-357l38 357m94-357l97 357" fill="none" stroke="#777f6c" stroke-width="2"/></g>
+  <g fill="#68745f" opacity=".5"><path d="M75 96l58 73-10 175-42 30zm158-23l39 61 8 194-39 32zm188 26l37 51-4 184-31-21z"/><circle cx="168" cy="175" r="44"/><circle cx="408" cy="220" r="47"/></g>
+  <g stroke="#222920" stroke-width="3" stroke-linejoin="round">
+    <path d="M58 642l15-167 64-45 55 35 42 179z" fill="#343c2f"/>
+    <path d="M92 348q-8-48 31-70 47-14 73 32l-8 72-29 42-39-14-21-30z" fill="#e5ddc5"/>
+    <path d="M88 356l-12-43 17-4 5-28 20 4 23-29 15 24 26-8 1 24 22 14-12 49-14-24-27-12-14 18-14-10-14 24z" fill="#182219"/>
+    <path d="M127 414l-2 30 31 25 26-33-18-23" fill="#d7d3bb"/>
+    <path d="M116 437l27 29 43-24-12 31-36 11-31-24z" fill="#a44331"/>
+    <path d="M175 474l51 49 56 1 10 23-79 7-64-45" fill="#d4d6bd"/>
+    <path d="M283 525l28-7 7 5-18 7 26 5-4 9-30 3" fill="#e5ddc5"/>
+    <path d="M113 356l17 3m30-9l18 4m-30 15l-4 17 10 3m-18 14l29-2" fill="none" stroke-width="2"/>
+    <path d="M391 657l-8-153 32-44 96-8 35 58 13 143z" fill="#dcddc8"/>
+    <path d="M423 437l1 36 45 23 14-38-22-24" fill="#c5c7ae"/>
+    <path d="M410 337q18-51 63-32 41 18 31 77l-13 44-34 26-36-17-17-42z" fill="#e5ddc5"/>
+    <path d="M405 382q-33-49 4-80 18-32 58-19 64 6 53 70l-24 28-10-35-20-10-9 20-16-15-21 14-10 33z" fill="#202b20"/>
+    <path d="M421 377l19-4m32 3l17 3m-36 7l-3 17 10 4m-22 14l26 2" fill="none" stroke-width="2"/>
+    <path d="M399 509l-42 30-63-2-5 23 81 9 56-32" fill="#dddcc7"/>
+    <path d="M295 539l-27-9-10 5 20 9-24 7 8 9 29-2" fill="#e5ddc5"/>
+    <path d="M63 599l472-1 50 76H18z" fill="#393f31"/>
+    <path d="M18 674h567v18H18z" fill="#252c22"/>
+    <path d="M41 692v108m515-108v108" stroke-width="16"/>
+    <path d="M203 579l128-7 29 51-142 5z" fill="#eee8d6"/>
+    <path d="M229 594l84-4m-79 13l80-4m-75 13l65-3" stroke-width="1.5"/>
+    <path d="M103 560h42l-4 36h-33zM431 561h42l-4 35h-34z" fill="#e9e4d4"/>
+    <path d="M145 568q27-2 17 18l-20 4m332-22q26 0 17 18l-20 3" fill="none"/>
+  </g>
+  <g stroke="#6c7560" fill="none" stroke-width="1.5"><path d="M116 540l-12 54m26-49l-13 49m315-40l8 38m9-41l10 38M180 635l309-7M66 658l472-5"/><path d="M117 545q-17-21 0-35m333 37q-17-23 1-39"/></g>
+  <path d="M61 640l99-1 5-122-73-52z" fill="url(#h)" opacity=".55"/><path d="M383 507h151v94H383z" fill="url(#d)" opacity=".4"/>
+  <g stroke="#252b21" stroke-width="3" fill="#eee8d6"><path d="M34 69q52-42 118 0l-5 91-64 15-20 33 3-38-31-17z"/><path d="M408 88q72-47 154 0l-7 98-39 12-9 28-12-30-82-14z"/></g>
+  <g fill="none" stroke="#555d4d" stroke-width="3"><path d="M57 103h69m-66 14h53m371 6h49m-56 15h70m-65 15h51"/></g>
+  <path d="M0 0h600v800H0z" fill="none" stroke="#171f18" stroke-width="12"/>
+</svg>
