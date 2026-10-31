@@ -3,6 +3,7 @@ import { Bodoni_Moda, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import "./chapters.css";
 import "./stories.css";
+import "./journey.css";
 import { Navbar } from "@/components/navigation/Navbar";
 import { Footer } from "@/components/shared/Footer";
 import { KonamiEgg } from "@/components/shared/KonamiEgg";

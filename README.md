@@ -24,7 +24,7 @@ The contact tests use a mocked email provider and never send a real message.
 ## Experience
 
 - Seven projects with company/startup/personal filters, live website links, and a separate Android APK link.
-- **The Quiet Build:** eight original SVG manga scenes with scroll-linked depth, chapter controls, and a vertical mobile/reduced-motion version.
+- **From Coast to Code:** a full-width twelve-chapter personal story using owner-supplied manga, scene/character/prop layers, expression changes, and a small articulated departure traveller. Ordinary vertical reading, four short desktop pins, a chapter index, and a reduced-motion version.
 - A planetary contribution map for Chessbishop, Fetchup, and independent work.
 - Bare roaming Snake, Brick Breaker, and Runner characters that open playable game dialogs.
 - An interactive contact switchboard with server-side email delivery to **sriram.efx@gmail.com**.
@@ -45,8 +45,11 @@ Vercel production metadata uses its production domain automatically. Set `NEXT_P
 ## Content and implementation
 
 - `data/projects.ts` — project descriptions and destinations
-- `components/motion/MangaStory.tsx` — eight-chapter story and reading controls
-- `public/images/manga/` — original manga artwork
+- `data/journey.ts` — the twelve-chapter biography, narration and comic beats
+- `components/motion/MangaJourney.tsx` — vertical story, chapter navigation and scoped animation
+- `components/motion/JourneyWalker.tsx` — segmented illustrative traveller
+- `public/images/journey/` — optimized supplied artwork, masked layers and no-glasses expressions
+- `scripts/prepare-journey.cjs` — reproducible image preparation from the supplied source directory/reference sheet
 - `components/motion/SpaceExperience.tsx` — contribution systems
 - `components/games/RoamingArcade.tsx` — living game actors and dialogs
 - `app/api/contact/route.ts` — validated email sending

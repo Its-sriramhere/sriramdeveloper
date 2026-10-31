@@ -1,0 +1,247 @@
+{
+  "source": "Owner-supplied twelve-chapter manga and expression reference",
+  "chapters": [
+    {
+      "id": "01",
+      "source": "01_the_coast_that_raised_me.png",
+      "page": "chapter-01.webp",
+      "world": "world-01.webp",
+      "detail": "detail-01.webp",
+      "worldCrop": [
+        640,
+        1145,
+        365,
+        350
+      ],
+      "detailCrop": [
+        20,
+        535,
+        980,
+        180
+      ]
+    },
+    {
+      "id": "02",
+      "source": "02_small_things_big_questions.png",
+      "page": "chapter-02.webp",
+      "world": "world-02.webp",
+      "detail": "detail-02.webp",
+      "worldCrop": [
+        25,
+        120,
+        975,
+        320
+      ],
+      "detailCrop": [
+        20,
+        510,
+        980,
+        200
+      ]
+    },
+    {
+      "id": "03",
+      "source": "03_a_bag_full_of_possibilities.png",
+      "page": "chapter-03.webp",
+      "world": "world-03.webp",
+      "detail": "detail-03.webp",
+      "worldCrop": [
+        480,
+        475,
+        520,
+        230
+      ],
+      "detailCrop": [
+        25,
+        115,
+        630,
+        250
+      ]
+    },
+    {
+      "id": "04",
+      "source": "04_hello_coimbatore.png",
+      "page": "chapter-04.webp",
+      "world": "world-04.webp",
+      "detail": "detail-04.webp",
+      "worldCrop": [
+        490,
+        285,
+        510,
+        325
+      ],
+      "detailCrop": [
+        25,
+        710,
+        970,
+        290
+      ]
+    },
+    {
+      "id": "05",
+      "source": "05_signals_circuits_possibilities.png",
+      "page": "chapter-05.webp",
+      "world": "world-05.webp",
+      "detail": "detail-05.webp",
+      "worldCrop": [
+        25,
+        325,
+        970,
+        215
+      ],
+      "detailCrop": [
+        25,
+        620,
+        970,
+        210
+      ]
+    },
+    {
+      "id": "06",
+      "source": "06_the_wire_boss_battle.png",
+      "page": "chapter-06.webp",
+      "world": "world-06.webp",
+      "detail": "detail-06.webp",
+      "worldCrop": [
+        25,
+        555,
+        970,
+        380
+      ],
+      "detailCrop": [
+        25,
+        1050,
+        570,
+        350
+      ]
+    },
+    {
+      "id": "07",
+      "source": "07_another_kind_of_building.png",
+      "page": "chapter-07.webp",
+      "world": "world-07.webp",
+      "detail": "detail-07.webp",
+      "worldCrop": [
+        690,
+        100,
+        310,
+        340
+      ],
+      "detailCrop": [
+        25,
+        515,
+        970,
+        160
+      ]
+    },
+    {
+      "id": "08",
+      "source": "08_it_worked_a_minute_ago.png",
+      "page": "chapter-08.webp",
+      "world": "world-08.webp",
+      "detail": "detail-08.webp",
+      "worldCrop": [
+        635,
+        505,
+        365,
+        300
+      ],
+      "detailCrop": [
+        25,
+        865,
+        970,
+        110
+      ]
+    },
+    {
+      "id": "09",
+      "source": "09_the_small_breakthrough.png",
+      "page": "chapter-09.webp",
+      "world": "world-09.webp",
+      "detail": "detail-09.webp",
+      "worldCrop": [
+        25,
+        765,
+        970,
+        245
+      ],
+      "detailCrop": [
+        650,
+        450,
+        340,
+        180
+      ]
+    },
+    {
+      "id": "10",
+      "source": "10_stories_between_the_frames.png",
+      "page": "chapter-10.webp",
+      "world": "world-10.webp",
+      "detail": "detail-10.webp",
+      "worldCrop": [
+        570,
+        305,
+        425,
+        250
+      ],
+      "detailCrop": [
+        470,
+        645,
+        520,
+        240
+      ]
+    },
+    {
+      "id": "11",
+      "source": "11_final_really_final.png",
+      "page": "chapter-11.webp",
+      "world": "world-11.webp",
+      "detail": "detail-11.webp",
+      "worldCrop": [
+        25,
+        765,
+        970,
+        390
+      ],
+      "detailCrop": [
+        25,
+        485,
+        490,
+        175
+      ]
+    },
+    {
+      "id": "12",
+      "source": "12_still_becoming.png",
+      "page": "chapter-12.webp",
+      "world": "world-12.webp",
+      "detail": "detail-12.webp",
+      "worldCrop": [
+        610,
+        1170,
+        385,
+        330
+      ],
+      "detailCrop": [
+        25,
+        465,
+        970,
+        300
+      ]
+    }
+  ],
+  "expressions": [
+    "joy",
+    "sadness",
+    "rage",
+    "shock",
+    "fear",
+    "confusion",
+    "suspicion",
+    "embarrassment",
+    "determination",
+    "exhaustion",
+    "grief"
+  ],
+  "totalWebpBytes": 5056076
+}

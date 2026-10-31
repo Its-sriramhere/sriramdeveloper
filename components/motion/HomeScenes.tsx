@@ -18,7 +18,8 @@ export function HomeScenes({ children }: { children: ReactNode }) {
       const local = gsap.context(() => {
         const scenes = gsap.utils.toArray<HTMLElement>(".home-scene");
         scenes.forEach(scene => {
-          const panel = scene.querySelector<HTMLElement>(".scene-panel")!;
+          const panel = scene.querySelector<HTMLElement>(".scene-panel");
+          if (!panel) return; // The full-width journey owns its chapter-local choreography.
           const enter = { trigger: scene, start: "top 96%", end: "top 48%", scrub: desktop ? 0.6 : 0.25, invalidateOnRefresh: true };
           if (!desktop) {
             gsap.fromTo(panel, { y: 22 }, { y: 0, ease: "none", scrollTrigger: enter });
@@ -53,16 +54,34 @@ export function HomeScenes({ children }: { children: ReactNode }) {
       return () => local.revert();
     });
     let disposed = false;
+    let alignmentFrame = 0;
     void document.fonts.ready.then(() => {
       if (disposed || !root.current) return;
       ScrollTrigger.refresh();
       const target = document.getElementById(window.location.hash.slice(1));
-      if (target && root.current.contains(target)) window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 64, behavior: "instant" });
+      if (target && root.current.contains(target)) {
+        const hash = window.location.hash;
+        const offset = target.id.startsWith("journey-") ? 118 : 64;
+        const top = target.getBoundingClientRect().top + window.scrollY - (target.id.startsWith("journey-") ? 118 : 64);
+        window.scrollTo({ top, behavior: "instant" });
+        window.dispatchEvent(new CustomEvent("portfolio:story-jump", { detail: top }));
+        // Crossing initially inactive pins settles their flow geometry on the next frame.
+        alignmentFrame = requestAnimationFrame(() => {
+          if (disposed || window.location.hash !== hash) return;
+          const corrected = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top: corrected, behavior: "instant" });
+          window.dispatchEvent(new CustomEvent("portfolio:story-jump", { detail: corrected }));
+        });
+      }
     });
     let timer: ReturnType<typeof setTimeout>;
-    const observer = new ResizeObserver(() => { clearTimeout(timer); timer = setTimeout(() => ScrollTrigger.refresh(), 120); });
+    let measured = false;
+    const observer = new ResizeObserver(() => {
+      if (!measured) { measured = true; return; }
+      clearTimeout(timer); timer = setTimeout(() => ScrollTrigger.refresh(), 120);
+    });
     root.current?.querySelectorAll(".scene-panel").forEach(panel => observer.observe(panel));
-    return () => { disposed = true; clearTimeout(timer); observer.disconnect(); media.revert(); };
+    return () => { disposed = true; cancelAnimationFrame(alignmentFrame); clearTimeout(timer); observer.disconnect(); media.revert(); };
   }, []);
 
   return <div ref={root} className="home-page">{children}</div>;

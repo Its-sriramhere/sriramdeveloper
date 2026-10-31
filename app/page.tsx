@@ -4,7 +4,7 @@ import { ArrowDown, ArrowUpRight, Layers3, Smartphone, Globe2 } from "lucide-rea
 import { HomeScenes } from "@/components/motion/HomeScenes";
 import { ProjectShowcase } from "@/components/ui/ProjectShowcase";
 import { ContactSwitchboard } from "@/components/ui/ContactSwitchboard";
-import { MangaStory } from "@/components/motion/MangaStory";
+import { MangaJourney } from "@/components/motion/MangaJourney";
 import { SpaceExperience } from "@/components/motion/SpaceExperience";
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="process" className="home-scene process-scene manga-scene" aria-labelledby="process-title"><div className="scene-panel"><div className="section-rail"><span>03 / HOW I BUILD</span><span>AN IDEA. A PLOT TWIST. A WORKING PRODUCT.</span></div><div className="section-intro"><h2 id="process-title">Every build<br /><em>has a story.</em></h2><p>A fictional journey. Real engineering habits. Follow an original Japanese-inspired manga through eight chapters, from an uncertain brief to a thoughtful release.</p></div><MangaStory /></div></section>
+      <MangaJourney />
 
       <section id="experience" className="home-scene experience-scene space-scene" aria-labelledby="experience-title"><div className="scene-panel"><div className="section-rail"><span>04 / EXPERIENCE & CONTRIBUTIONS</span><span>A CONSTELLATION OF WORK</span></div><div className="section-intro"><h2 id="experience-title">Different worlds.<br /><em>One trajectory.</em></h2><p>Company work, a startup, and independent explorations. Choose a system, or scroll to travel between them.</p></div><SpaceExperience /></div></section>
 
